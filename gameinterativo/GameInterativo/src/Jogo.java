@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
     public class Jogo {
@@ -8,7 +9,7 @@ import java.util.Scanner;
     
     // métodos etc
 
-    public class Jogo {
+  
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             
@@ -20,9 +21,11 @@ import java.util.Scanner;
         
             Personagem personagem;
             if (opcao == 1) {
-                personagem = new Lobisomem();
+            	//Fake atributos
+                personagem = new Lobisomem(null, opcao, null, opcao);
             } else if (opcao == 2) {
-                personagem = new Vampiro();
+            	//Fake atributos
+                personagem = new Vampiro(null, opcao, null, opcao);
             } else {
                 System.out.println("Opção inválida!");
                 return;
@@ -34,4 +37,4 @@ import java.util.Scanner;
         public static void iniciarJogo(Personagem personagem) {
             
         }
-    }}
+    }

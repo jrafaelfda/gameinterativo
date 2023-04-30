@@ -13,12 +13,14 @@ public Vampiro (String nome, int vida, String descricao, int velocidade) {
         // ainda vamos implementar
     }
 
-    public = getVelocidade() {
-		return this.velocidade;
+	public int getVelocidade() {
+		return velocidade;
 	}
 
-	public void setVelocidade(= velocidade) {
+	public void setVelocidade(int velocidade) {
 		this.velocidade = velocidade;
 	}
+
+   
 
 }

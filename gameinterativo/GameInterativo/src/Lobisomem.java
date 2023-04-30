@@ -13,13 +13,15 @@ public class Lobisomem extends Personagem {
         // ainda vamos implementar
     }
 
-    public = getForca() {
-		return this.forca;
+	public int getForca() {
+		return forca;
 	}
 
-	public void setForca(= forca) {
+	public void setForca(int forca) {
 		this.forca = forca;
 	}
+
+   
 
 }
 
