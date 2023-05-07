@@ -1,10 +1,10 @@
 package com.example.gameinterativo.model;
 
 import java.util.List; 
+import lombok.Getter;
 
 public class Historia { 
-    private String enredoPrincipal; 
-    private List<Escolha> escolhas; 
-     
-    // métodos etc 
+    @Getter private String enredoPrincipal; 
+    @Getter private List<Escolha> escolhas; 
+
 }

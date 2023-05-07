@@ -37,8 +37,12 @@ public class GameInterativoApplication {
          
         //iniciarJogo(personagem); 
 	}
-	public static void iniciarJogo(Personagem personagem) { 
-        
-    }
+	public static void iniciarJogo(Personagem personagem) {
+    
+        // adiciona as escolhas iniciais
 
+        Historia historia = new Historia();
+    
+    }
+    
 }

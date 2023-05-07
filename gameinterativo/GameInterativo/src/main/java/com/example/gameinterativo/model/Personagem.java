@@ -24,6 +24,8 @@ public abstract class Personagem {
 	protected int vida; 
 	private int velocidade; 
 	private int magia;
+	
+	private Local localAtual;
 
  
 

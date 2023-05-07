@@ -8,6 +8,7 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 @Entity
+
 public class Vampiro extends Personagem { 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

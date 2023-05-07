@@ -1,9 +1,11 @@
 package com.example.gameinterativo.model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 public class Escolha { 
-    private String descricao; 
-    private String resultado; 
-    private String destino; 
+   @Getter @Setter private String descricao; 
+   @Getter @Setter private String resultado; 
+   @Getter @Setter private String destino; 
      
-    // métodos etc 
 }

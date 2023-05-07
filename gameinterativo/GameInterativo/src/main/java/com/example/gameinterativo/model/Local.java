@@ -20,7 +20,7 @@ public abstract class Local {
 	@JoinColumn(name = "descrição",referencedColumnName = "id")
     protected String descricao; 
  
- 
+	
  
     public abstract List<Personagem> getPersonagens(); 
  

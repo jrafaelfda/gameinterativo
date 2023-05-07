@@ -6,6 +6,7 @@ import lombok.AllArgsConstructor;
 @Data
 @AllArgsConstructor
 @Entity
+
 public class Lobisomem extends Personagem{
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
